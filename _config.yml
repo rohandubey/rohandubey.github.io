@@ -1,0 +1,23 @@
+title: Rohan Dubey
+author:
+  name: Rohan Dubey
+  email: "rohandubey262000@gmail.com"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+remote_theme: jekyll/minima
+minima:
+  skin: dark
+  social_links:
+    - { platform: linkedin,  user_url: "https://www.linkedin.com/in/rohandubey/" , title:  LinkedIn}
+    - { platform: github, user_url: "https://github.com/rohandubey/" , title:  Github}
+    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=m2z_otkAAAAJ&hl=en", title:  Google Scholar }
+    - { platform: microdotblog ,user_url: "mailto:f20180939@hyderabad.bits-pilani.ac.in" , title:  Mail}
+baseurl: "rohandubey.github.io"
+url: ""
+highlighter: rouge
+show_excerpts: false
+kramdown:
+    math_engine: katex
+    syntax_highlighter: rouge
+    hard_wrap: true
