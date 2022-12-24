@@ -15,7 +15,7 @@ minima:
     - { platform: microdotblog ,user_url: "mailto:f20180939@hyderabad.bits-pilani.ac.in" , title:  Mail}
 
 highlighter: rouge
-google_analytics: G-VTFZ1700YL
+google_analytics: UA-252500269-1
 show_excerpts: false
 kramdown:
     math_engine: katex
