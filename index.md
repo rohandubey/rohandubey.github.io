@@ -3,7 +3,7 @@ layout: page
 ---
 
 <span style="display:block; margin-top:-30px;">
-![My face](https://avatars.githubusercontent.com/rohandubey){:height="50%" width="50%"}
+![My face](profile_pic.jpg){:height="50%" width="50%"}
 </span>
 
 
