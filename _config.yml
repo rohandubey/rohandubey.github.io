@@ -6,6 +6,9 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
 remote_theme: jekyll/minima
+# Disqus comments
+disqus:
+  shortname: reedn
 minima:
   skin: dark
   social_links:
@@ -15,7 +18,6 @@ minima:
     - { platform: microdotblog ,user_url: "mailto:f20180939@hyderabad.bits-pilani.ac.in" , title:  Mail}
 
 highlighter: rouge
-google_analytics: UA-252500269-1
 show_excerpts: false
 kramdown:
     math_engine: katex
