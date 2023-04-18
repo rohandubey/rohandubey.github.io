@@ -115,18 +115,6 @@ However, there may be situations where a custom feature extractor based on speci
 
 Overall, understanding the characteristics and capabilities of different local image descriptors can be invaluable in developing computer vision systems that are both efficient and effective in a variety of applications.
 
-
-
-
-<definition>
-An auto-direction (or <def>eigendirection</def>) is a direction that does not change when we apply a given linear transformation.
-Vectors laying on such direction will (at most) change their magnitude by the corresponding auto-value (<def>eigenvalue</def>) scalar constant.
-</definition>
-
-In the interactive demo below, choose two auto-directions by clicking on two (possibly consecutive) <red>red dots</red>.
-Drag around the <green>chosen eigenvectors</green> to generate arbitrary linear transformations, mapping <blue>blue points</blue> to <red>red points</red>.
-Notice how the eigenvectors will solely move along their auto-direction, effectively changing only their magnitude.
-
 <div id="disqus_thread"></div>
 <script>
 var disqus_config = function () {
