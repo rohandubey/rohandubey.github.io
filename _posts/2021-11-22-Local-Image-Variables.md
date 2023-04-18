@@ -8,7 +8,7 @@ title: Unveiling the Power of Local Image Variables and Key Points
 Image recognition and object detection are critical fields in computer vision, with numerous applications in fields like self-driving cars, robotics, and security systems. To achieve accurate object detection, image recognition algorithms use various local image variables and key points. Three popular techniques that use local image variables to identify key points are SIFT, SURF, and ORB.
 
 <definition>
-**Local image variables** refer to image features or attributes that describe a small region of an image. These variables are used to identify key points or landmarks in the image, which can be used for object detection, tracking, or recognition. Some common local image variables are:
+* **Local image variables** refer to image features or attributes that describe a small region of an image. These variables are used to identify key points or landmarks in the image, which can be used for object detection, tracking, or recognition. Some common local image variables are:
 </definition>
 * **Edges**: Edges refer to the boundaries between two regions in an image with different intensities. They are often used to detect corners, which are key points in the image.
 * **Corners**: Corners are points in the image where there is a significant change in intensity in more than one direction. Corners are often used as landmarks because they are stable under transformations like rotation and scale.
