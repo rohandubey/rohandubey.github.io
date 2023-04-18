@@ -13,6 +13,7 @@ Image recognition and object detection are critical fields in computer vision, w
 * **Edges**: Edges refer to the boundaries between two regions in an image with different intensities. They are often used to detect corners, which are key points in the image.
 * **Corners**: Corners are points in the image where there is a significant change in intensity in more than one direction. Corners are often used as landmarks because they are stable under transformations like rotation and scale.
 * **Blobs**: Blobs refer to regions in the image where the intensity values are higher than the surrounding pixels. They are often used to detect objects in the image.
+
 ## SIFT (Scale-Invariant Feature Transform)
 
 SIFT is a popular computer vision algorithm that identifies key points in an image by analyzing the local image variables. SIFT is known for its robustness to scale, rotation, and illumination changes, making it suitable for various types of images. Here's a brief overview of how SIFT works:
@@ -23,6 +24,7 @@ SIFT is a popular computer vision algorithm that identifies key points in an ima
 * **Descriptor generation**: SIFT generates a descriptor for each keypoint based on the local image gradient magnitudes and directions within a specific region.
 
 SIFT has been proven effective in numerous applications like object recognition, image stitching, and image retrieval.
+
 ## SURF (Speeded-Up Robust Features)
 SURF is a modification of SIFT that is designed to be faster and more efficient. It achieves this by using a fast Hessian-based detection of the extrema, which reduces the computation time significantly. The steps involved in SURF are similar to SIFT:
 
@@ -33,7 +35,7 @@ SURF is a modification of SIFT that is designed to be faster and more efficient.
 
 SURF is faster than SIFT but may not perform as well in some scenarios.
 
-# ORB (Oriented FAST and Rotated BRIEF)
+## ORB (Oriented FAST and Rotated BRIEF)
 ORB is another modification of SIFT that is designed to be faster and more efficient. ORB achieves this by using a fast feature detection algorithm called FAST and a binary descriptor called BRIEF. Here's how ORB works:
 
 * **Keypoint detection**: ORB uses the FAST algorithm to detect keypoints.
