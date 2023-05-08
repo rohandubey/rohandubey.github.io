@@ -10,7 +10,11 @@ layout: page
 # About me!👋
 I have a passion for exploring the frontiers of deep learning and computer vision, and how they can help us connect with each other and the world around us. I am pursuing a dual degree in Mathematics and Electrical And Electronics Engineering from Birla Institute of Technology and Sciences, Pilani – Hyderabad Campus. I love to experiment with data science and mathematics, travel to new places, and play video games.
 {: style="text-align: justify"}
+<<<<<<< HEAD
 My research interests lie in natural language processing and computer vision, two domains that enable machines to understand and interact with human language and vision. You can find out more about my [Projects](/projects), [Work Experiences](/work), [Publications](/publications), [Resume](/Resume.pdf), and [Statistics Blog Post](/blogs) on this website.
+=======
+My research interests lie in natural language processing and computer vision, two domains that enable machines to understand and interact with human language and vision. You can find out more about my [Projects](/projects), [Work Experiences](/work), [Publications](/publications), [Resume](/Resume.pdf), and [Statistics Blog Post](/blogs) on this website.
+>>>>>>> bcedf03 (UI update)
 {: style="text-align: justify"}
 
 <p class="last-edit">Last update: 20 Nov 2022.</p>

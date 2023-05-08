@@ -6,7 +6,11 @@ title: Publications💡
 ### [Handwritten Image Detection using DCGAN with SIFT and ORB Optical Features](https://ieeexplore.ieee.org/document/10112139)
 
 
+<<<<<<< HEAD
 > #### -- [Rohan Dubey](https://orcid.org/0000-0001-8774-3621); [Ipshita Das](https://orcid.org/0000-0001-8774-3621)
+=======
+> #### -- [Rohan Dubey](https://orcid.org/0000-0001-8774-3621); [Ipshita Das](https://orcid.org/0000-0001-8774-3621)
+>>>>>>> bcedf03 (UI update)
 
 **Abstract:**
 

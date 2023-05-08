@@ -1,1 +1,1 @@
-jekyll serve --trace $@
+jekyll serve --trace --livereload $@

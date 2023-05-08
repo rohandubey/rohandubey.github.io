@@ -12,26 +12,88 @@
             </svg><span>Subscribe</span>
           </a>
         </p>
-      {%- if site.author %}
-        <ul class="contact-list">
-          {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
-          {% endif -%}
-          {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
-        </ul>
-      {%- endif %}
       </div>
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>
       </div>
     </div-->
 
-    <div class="social-links">
-      {%- include social.html -%}
-    </div>
+<div class="social-links">
+  {% for link in site.minima.social_links %}
+    {% case link.platform %}
+      {% when 'linkedin' %}
+        <a class="social-icon" href="{{ link.user_url }}" target="_blank" rel="noopener" aria-label="{{ link.title }}">
+          <div class="icon-box">
+            <svg class="svg-icon small-icon">
+              <use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use>
+            </svg>
+          </div>
+        </a>
+      {% when 'github' %}
+        <a class="social-icon" href="{{ link.user_url }}" target="_blank" rel="noopener" aria-label="{{ link.title }}">
+          <div class="icon-box">
+            <svg class="svg-icon small-icon">
+              <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
+            </svg>
+          </div>
+        </a>
+      {% when 'google_scholar' %}
+        <a class="social-icon" href="{{ link.user_url }}" target="_blank" rel="noopener" aria-label="{{ link.title }}">
+          <div class="icon-box">
+            <svg class="svg-icon small-icon">
+              <use xlink:href="{{ '/assets/minima-social-icons.svg#google_scholar' | relative_url }}"></use>
+            </svg>
+          </div>
+        </a>
+      {% when 'mail' %}
+        <a class="social-icon" href="{{ link.user_url }}" target="_blank" rel="noopener" aria-label="{{ link.title }}">
+          <div class="icon-box">
+            <img class="small-icon" src="{{ '/assets/social-icons/mail.png' | relative_url }}" alt="{{ link.title }}">
+          </div>
+        </a>
+    {% endcase %}
+  {% endfor %}
+</div>
+
+<style>
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-icon {
+  display: inline-block;
+  margin: 0 8px;
+  border: 1px solid  #333;
+  background-color: transparent;
+  filter: hue-rotate(180deg) brightness(100%);
+}
+
+ .social-icon:hover {
+  border-color: #fff;
+}
+  .icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+  }
+
+  .svg-icon {
+    width: 45px;
+    height: 45px;
+    fill: #fff;
+  }
+
+  .small-icon {
+    width: 20px;
+    height: 20px;
+  }
+</style>
+
 
   </div>
-
 </footer>
+

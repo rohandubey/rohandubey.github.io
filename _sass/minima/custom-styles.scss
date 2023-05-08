@@ -2,9 +2,19 @@
  * Site header
  */
 .site-header {
+  background-image: url('/assets/back_img.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: brightness(100%) saturate(100%);
+  color: #fff;
   border-top: none;
+  padding: 20px;
+
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
   line-height: $base-line-height * $base-font-size * 3.25;
 }
+
 
 .site-title {
   @include relative-font-size(2.0);
@@ -16,6 +26,7 @@
   text-decoration: none !important;
 }
 
+
 .site-nav {
   top: 19px;
 }
@@ -24,7 +35,7 @@
  * Titles
  */
 h1 {
-  color: $lavender;
+  color: $text-color;
 }
 
 h2 {
@@ -32,7 +43,7 @@ h2 {
 }
 
 h3 {
-  color: $lavender;
+  color: $text-color;
 }
 
 /**
@@ -57,10 +68,10 @@ h3 {
   color: #8dd3c7 !important;
 }
 
-$link-base-color: #00ffff !default;
+$link-base-color: $link-color !default;
 
 // .post-link {
-//   color: #00ffff !important;
+//   color: $link-color-hover !important;
 // }
 
 // Fix title on the homepage, which is no longer layout: home
@@ -75,6 +86,7 @@ h1#about-me {
   font-size: 2.625em;
   letter-spacing: -1px;
   line-height: 1.15;
+  color: $text-color;
 }
 
 // Import JS demos created in Processing JS
@@ -97,6 +109,33 @@ definition {
   padding: $spacing-unit / 2;
   font-size: 1.2em;
   margin-bottom: 15px;
+}
+
+body {
+  background-image: url("/assets/try.webp");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-image: inherit;
+  background-repeat: inherit;
+  background-size: inherit;
+  filter: blur(1px);
+}
+
+/* Prevent the blur from affecting foreground content */
+.site {
+  position: relative;
+  z-index: 1;
 }
 
 def {

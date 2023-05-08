@@ -1,16 +1,22 @@
 // Placeholder to allow overriding predefined variables smoothly.
 // My colours
 
-$aqua: #8dd3c7;
-$yellow: #ffffb3;
-$lavender: #bebada;
-$red: #fb8072;
-$blue: #80b1d3;
-$orange: #fdb462;
-$green: #b3de69;
-$pink: #fccde5;
-$grey: #d9d9d9;
-$violet: #bc80bd;
+$aqua: #4DB6AC;
+$yellow: #FFCA28;
+$lavender: #9575CD;
+$red: #EF5350;
+$blue: #42A5F5;
+$orange: #FF7043;
+$green: #66BB6A;
+$pink: #F48FB1;
+$grey: #BDBDBD;
+$violet: #7E57C2;
+
+// Dark colors
+$background-color: #1f1f1f;
+$text-color: #fff;
+$link-color: #2196f3;
+$link-color-hover: #1976d2;
 
 aqua {color: $aqua;}
 yellow {color: $yellow;}
