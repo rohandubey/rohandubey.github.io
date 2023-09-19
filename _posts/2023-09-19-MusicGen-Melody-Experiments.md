@@ -54,6 +54,15 @@ Feel the power. Compose for your magnum opus. Even share the tuned Muse - let ot
 
 Now, let the symphony begin!
 
+### Sample Inputs and Outputs
+
+| Input Prompt | Input Wav File | Output Wav Files          |
+|--------------|----------------|--------------------------|
+| Generate a cheerful, upbeat melody with a hint of nostalgia. | [Click to Play](/path/to/input.wav) | [Generated Melody 1](/path/to/output1.wav) |
+|              |                | [Generated Melody 2](/path/to/output2.wav) |
+|              |                | [Generated Melody 3](/path/to/output3.wav) |
+
+
 
 <div id="disqus_thread"></div>
 <script>
