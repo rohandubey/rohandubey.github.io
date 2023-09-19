@@ -7,13 +7,13 @@ title: "MusicGen-Melody Fine-Tuning: Create Your Own Melodies"
 >
 > I can't wait to see what people create with MusicGen Melody!
 
-## Unleash Your Melodic Magic
+## 🧙🪄✨ Unleash Your Melodic Magic
 <definition>
 Embark on a journey to craft your symphonic tales. The first step? Curate a melody treasure trove! Ensure it's tuned to dance harmoniously with the MusicGen framework. The script `text2json.py` is your melody maestro, orchestrating the transformation from `txt+wav` to `json+wav`.
 
-But that's not all! Craft a symphony manifesto - a poetic parchment listing the sacred paths of your audio and text creations. The <span style="color:blue">**AudioDataset symphony**</span> weaves it all together.
+But that's not all! Craft a symphony manifesto - a poetic parchment listing the sacred paths of your audio and text creations. The <span style="color:#00FFFF">AudioDataset symphony</span> weaves it all together.
 
-Tune in to the <span style="color:blue">**config folder**</span> - it's the control room for your melodic odyssey.
+Tune in to the <span style="color:#00FFFF">config folder</span> - it's the control room for your melodic odyssey.
 </definition>
 
 
@@ -21,7 +21,7 @@ Tune in to the <span style="color:blue">**config folder**</span> - it's the cont
 
 Before you set sail, ignite the cache bonfire. It's the secret garden of pre-computed harmonies that'll fuel the **chroma2music engine**. Let a petite model dance for one epoch - watch the cache fireworks.
 
-## Fine-tuning Fantasia
+## 👏👏👏 Fine-tuning Fantasia
 
 Once the cache symphony is composed, the real magic begins. **<span style="color:green">Fine-tuning the melody</span>**, it's a dance with chroma2music's conditioner, a waltz in medium-sized shoes.
 
@@ -29,28 +29,28 @@ Once the cache symphony is composed, the real magic begins. **<span style="color
 
 Now, the grand stage awaits. Test the maestro on a fresh symphony, unheard by its creator. Then, let the critics in - metrics, both sharp and poetic, judge the resonance.
 
-## Encore! Encore!
+## 🎶🎧🎹 Encore! Encore!
 
 **Fine-tuning MusicGen-Melody** is your ticket to a personal symphonic soiree. With a touch of artistry, coax MusicGen-Melody to harmonize with your unique creative pulse.
 
-### 🚀 Pro Tips for a Melodic Mastery
+## 🚀 Pro Tips for a Melodic Mastery
 
 - **<span style="color:red">Harmonize with Diversity</span>:** Drown in a sea of melodies, let each wave be your muse.
 - **<span style="color:red">Play with Keys of Hyperparameters</span>:** Different strokes for different folks - try out various batch sizes, conductors, and tempos for your dataset.
 - **<span style="color:red">Polish Your Opus</span>:** Let the melody echo - refine it over epochs for the perfect crescendo.
 - **<span style="color:red">The Connoisseur's Ear</span>:** Regularly appraise the notes. It's how the maestro finds its crescendo and fine-tunes its forte.
 
-## A Symphony of Self-Expression
+## 🎻🎼🎵 A Symphony of Self-Expression
 
-Picture a realm where your melodies sculpt the air, each note in your unique signature. That's **<span style="color:purple">MusicGen-Melody</span>**, remixed just for you.
+Picture a realm where your melodies sculpt the air, each note in your unique signature. That's **<span style="color:#F9FAE6">MusicGen-Melody</span>**, remixed just for you.
 
 With fine-tuning, you're the maestro. Your personal collection of melodies becomes the magnum opus, painting your notes on the canvas of sound.
 
 Feel the power. Compose for your magnum opus. Even share the tuned Muse - let others dance to your tune.
 
-## The Crescendo
+## 🥁🎸🎹 The Crescendo
 
-**<span style="color:purple">Fine-tuning MusicGen-Melody</span>** is your wand to conjure unique melodies, a spell woven with your personal artistic flair.
+**<span style="color:#F9FAE6">Fine-tuning MusicGen-Melody</span>** is your wand to conjure unique melodies, a spell woven with your personal artistic flair.
 
 Now, let the symphony begin!
 
