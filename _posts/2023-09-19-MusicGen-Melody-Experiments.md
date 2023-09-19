@@ -54,14 +54,13 @@ Feel the power. Compose for your magnum opus. Even share the tuned Muse - let ot
 
 Now, let the symphony begin!
 
-### Sample Inputs and Outputs
+## 🌳🎶 Dive into the Melodic Wonderland
 
-| Input Prompt | Input Wav File | Output Wav Files          |
-|--------------|----------------|--------------------------|
-| Generate a cheerful, upbeat melody with a hint of nostalgia. | [Click to Play](/assets/Mohan-Theme-035.mp3) | [Generated Melody 1](/path/to/output1.wav) <audio controls><source src="/assets/Mohan-Theme-035.mp3" type="audio/mp3"></audio> |
-|              |                | [Generated Melody 2](/assets/Mohan-Theme-035.mp3) <audio controls><source src="/assets/Mohan-Theme-035.mp3" type="audio/mp3"></audio> |
-|              |                | [Generated Melody 3](/assets/Mohan-Theme-035.mp3) <audio controls><source src="/assets/Mohan-Theme-035.mp3" type="audio/mp3"></audio> |
+Unleash your creativity with the MusiGen Melody model! Below are some intriguing inputs and their whimsical outputs:
 
+| **Input Prompt** | **Input Audio** | **Generated Melodies** |
+|------------------|----------------|----------------------|
+| Generate a cheerful, upbeat melody with a hint of nostalgia. | [Input Melody](/assets/Mohan-Theme-035.mp3) 🎵 <audio controls><source src="/assets/Mohan-Theme-035.mp3" type="audio/mp3"></audio> | - [Generated Melody 1](/assets/output1.wav) 🎶 <audio controls><source src="/assets/output1.wav" type="audio/wav"></audio> <br> - [Generated Melody 2](/assets/output2.wav) 🎶 <audio controls><source src="/assets/output2.wav" type="audio/wav"></audio> <br> - [Generated Melody 3](/assets/output3.wav) 🎶 <audio controls><source src="/assets/output3.wav" type="audio/wav"></audio> |
 
 
 
