@@ -60,7 +60,7 @@ Unleash your creativity with the MusiGen Melody model! Below are some intriguing
 
 | **Input Prompt** | **Input Audio** | **Generated Melodies** |
 |------------------|----------------|----------------------|
-| Generate a cheerful, upbeat melody with a hint of nostalgia. | [Input Melody](/assets/Mohan-Theme-035.mp3) 🎵 <audio controls><source src="/assets/Mohan-Theme-035.mp3" type="audio/mp3"></audio> | - [Generated Melody 1](/assets/output1.wav) 🎶 <audio controls><source src="/assets/output1.wav" type="audio/wav"></audio> <br> - [Generated Melody 2](/assets/output2.wav) 🎶 <audio controls><source src="/assets/output2.wav" type="audio/wav"></audio> <br> - [Generated Melody 3](/assets/output3.wav) 🎶 <audio controls><source src="/assets/output3.wav" type="audio/wav"></audio> |
+| Compose a background music track using the Indian morsing with no sitar at a tempo of 120 bpm. The track should be in the Indian percussion genre and free of noise or distortion. | [Input Melody](/assets/Mohan-Theme-035.mp3) 🎵 <audio controls><source src="/assets/Mohan-Theme-035.mp3" type="audio/mp3"></audio> | - [Generated Melody 1](/assets/output1.wav) 🎶 <audio controls><source src="/assets/output1.wav" type="audio/wav"></audio> <br> - [Generated Melody 2](/assets/output2.wav) 🎶 <audio controls><source src="/assets/output2.wav" type="audio/wav"></audio> <br> - [Generated Melody 3](/assets/output3.wav) 🎶 <audio controls><source src="/assets/output3.wav" type="audio/wav"></audio> |
 
 
 
