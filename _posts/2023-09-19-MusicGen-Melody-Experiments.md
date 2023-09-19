@@ -58,9 +58,9 @@ Now, let the symphony begin!
 
 | Input Prompt | Input Wav File | Output Wav Files          |
 |--------------|----------------|--------------------------|
-| Generate a cheerful, upbeat melody with a hint of nostalgia. | [Click to Play](/assets/Mohan-Theme-035.mp3) | [Generated Melody 1](/path/to/output1.wav) <audio controls><source src="/path/to/output1.wav" type="audio/wav"></audio> |
-|              |                | [Generated Melody 2](/path/to/output2.wav) <audio controls><source src="/path/to/output2.wav" type="audio/wav"></audio> |
-|              |                | [Generated Melody 3](/path/to/output3.wav) <audio controls><source src="/path/to/output3.wav" type="audio/wav"></audio> |
+| Generate a cheerful, upbeat melody with a hint of nostalgia. | [Click to Play](/assets/Mohan-Theme-035.mp3) | [Generated Melody 1](/path/to/output1.wav) <audio controls><source src="/assets/Mohan-Theme-035.mp3" type="audio/mp3"></audio> |
+|              |                | [Generated Melody 2](/assets/Mohan-Theme-035.mp3) <audio controls><source src="/assets/Mohan-Theme-035.mp3" type="audio/mp3"></audio> |
+|              |                | [Generated Melody 3](/assets/Mohan-Theme-035.mp3) <audio controls><source src="/assets/Mohan-Theme-035.mp3" type="audio/mp3"></audio> |
 
 
 
