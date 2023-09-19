@@ -8,12 +8,14 @@ title: "MusicGen-Melody Fine-Tuning: Create Your Own Melodies"
 > I can't wait to see what people create with MusicGen Melody!
 
 ## Unleash Your Melodic Magic
-
+<definition>
 Embark on a journey to craft your symphonic tales. The first step? Curate a melody treasure trove! Ensure it's tuned to dance harmoniously with the MusicGen framework. The script `text2json.py` is your melody maestro, orchestrating the transformation from `txt+wav` to `json+wav`.
 
 But that's not all! Craft a symphony manifesto - a poetic parchment listing the sacred paths of your audio and text creations. The <span style="color:blue">**AudioDataset symphony**</span> weaves it all together.
 
 Tune in to the <span style="color:blue">**config folder**</span> - it's the control room for your melodic odyssey.
+</definition>
+
 
 ## 🌟 Spark the Creative Fire
 
